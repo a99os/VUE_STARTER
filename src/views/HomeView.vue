@@ -1,7 +1,9 @@
-<template lang="">
-  <div class="bg-green-400  ">Salom</div>
-</template>
-<script>
-export default {};
+<script setup>
+import TheWelcome from '../components/TheWelcome.vue'
 </script>
-<style lang="scss"></style>
+
+<template>
+  <main>
+    <TheWelcome />
+  </main>
+</template>
